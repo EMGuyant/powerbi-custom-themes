@@ -12,9 +12,13 @@ Get hands-on with Custom Themes in Power BI, experiment and explore the Power BI
 
 The repository includes:
 1) `power-bi-theme-report.pbix`: This Power BI report come pre-loaded with sample data and provies a sandbox to view and test new themes
-2) `Theme Files`: This folder contains the various theme files created or modified and referenced in the blog posts listed below.
+2) `Themes`: This folder contains the various theme files created or modified and referenced in the blog posts listed below.
 
 ## 🎯 What You Will Learn
+
+1) **Get started with Power BI Themes**: Dive into the details of blending design and data with custom Power BI themes.
+   
+   📰 Blog Post: [Design Meets Data: The Art of Crafting Captivating Power BI Themes](https://ethanguyant.com/2024/03/22/design-meets-data-the-art-of-crafting-captivating-power-bi-themes/)
 
 ## 🚀 Getting Started
 
