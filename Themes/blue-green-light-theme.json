@@ -1,0 +1,575 @@
+﻿{
+    "name": "Blue Green Light Theme",
+    "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.126.json",
+    "dataColors": [
+        "#064789",
+        "#4478A9",
+        "#89A9CA",
+        "#CADAEA",
+        "#D5EBD6",
+        "#A9DC8F",
+        "#7DCE47",
+        "#51BF00"
+    ],
+    "firstLevelElements": "#0A2B43",
+    "secondLevelElements": "#064789",
+    "thirdLevelElements": "#E5E9ED",
+    "fourthLevelElements": "#C0C7CD",
+    "background": "#F1F9FF",
+    "secondaryBackground": "#96AEC7",
+    "tableAccent": "#51BF00",
+    "maximum": "#184E77",
+    "center": "#E6ECF4",
+    "minimum": "#76CC48",
+    "bad": "#345A88",
+    "neutral": "#E6ECF4",
+    "good": "#65AD49",
+    "textClasses": {
+        "label": {
+            "color": "#053567",
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 10
+        },
+        "callout": {
+            "color": "#064789",
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 26
+        },
+        "title": {
+            "color": "#053567",
+            "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+            "fontSize": 12
+        },
+        "header": {
+            "color": "#053567",
+            "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+            "fontSize": 12
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {"color": "#F6FAFE" } }
+                    }
+                ],
+                "border": [
+                    {
+                        "color": { 
+                            "solid": { 
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            } 
+                        },
+                        "show": true,
+                        "radius": 5
+                    }
+                ],
+                "divider": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 9,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "show": true,
+                        "width": 2,
+                        "style": "solid"
+                    }
+                ],
+                "subTitle": [
+                    {
+                      "fontColor": {
+                        "solid": {
+                          "color": {
+                            "expr": {
+                              "ThemeDataColor": {
+                                "ColorId": 2,
+                                "Percent": 0.4
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fontFamily": "Segoe UI",
+                      "show": true,
+                      "fontSize": 9
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "background": { "solid": { "color": "#F6FAFE" } },
+                        "foreground": { 
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": { "solid": { "color": "#F6FAFE" } }
+                    }
+                ],
+                "visualHeaderTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": { "solid": { "color": "#F6FAFE" }}
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": { "solid": { "color": "#F6FAFE" } },
+                        "checkboxAndApplyColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "foregroundColor": { 
+                            "solid": { 
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$id": "Available",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }  
+        },
+        "tableEx": {
+            "*": {
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0.95
+                                        }
+                                    }
+                                }
+                                    
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "wordWrap": false
+                    }
+                ],
+                "values": [
+                    {
+                        "fontColorPrimary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+					    "backColorPrimary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0.95
+                                        }
+                                    }
+                                }
+                            }
+                        },
+					    "fontColorSecondary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+					    "backColorSecondary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0.9
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "total": [
+                    {
+                        "totals": true,
+                        "fontColor": { "solid": { "color": "#F6FAFE" }},
+                        "backColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "grid": [
+                    {
+                        "outlineWeight": 2
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "columnHeaders": [
+                    {
+                        "fontColor": { "solid": { "color": "#F6FAFE" }},
+                        "backColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "wordWrap": false
+                    }
+                ],
+                "values": [
+                    {
+                        "fontColorPrimary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+					    "backColorPrimary": { "solid": { "color": "#F1F9FF"}},
+					    "fontColorSecondary": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+					    "backColorSecondary": { "solid": { "color": "#DFE9F0"}}
+                    }
+                ],
+                "rowTotal": [
+                    {
+                        "fontColor": { "solid": { "color": "#F6FAFE" }},
+                        "backColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "applyToHeaders": true
+                    }
+                ],
+                "columnTotal": [
+                    {
+                        "fontColor": { "solid": { "color": "#F6FAFE" }},
+                        "backColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "bold": false,
+                        "applyToHeaders": false
+                    }
+                ],
+                "grid": [
+                    {
+                        "outlineWeight": 2
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "background": [
+                    {
+                        "transparency": 100
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "slider": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "lineClusteredColumnComboChart": {
+            "*": {
+                "lineStyles": [
+                    {
+                        "showMarker": true,
+                        "markerShape": "circle"
+                    }
+                ]
+            }
+        },
+        "lineStackedColumnComboChart": {
+            "*": {
+                "lineStyles": [
+                    {
+                        "showMarker": true,
+                        "markerShape": "circle"
+                    }
+                ]
+            }
+        },
+        "textbox": {
+            "*": {
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "text": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": -0.25
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shape": {
+            "*": {
+                "border": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "cardVisual": {
+            "*": {
+                "referenceLabel": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 6,
+                                            "Percent": 0.65
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "$id": "default"
+                    }
+                ],
+                "divider": [
+                    {
+                        "dividerColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 8,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "dividerWidth": 2,
+                        "$id": "default"
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "outspace": [
+                    {
+                        "color": { "solid": { "color": "#F1F4F7" } }
+                    }
+                ],
+                "background": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}
